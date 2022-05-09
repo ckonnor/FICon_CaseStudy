@@ -1,0 +1,3 @@
+INSERT INTO FI_CaseDataO (Date)
+SELECT DISTINCT Date FROM FI_CaseData
+ORDER BY Date ASC;
